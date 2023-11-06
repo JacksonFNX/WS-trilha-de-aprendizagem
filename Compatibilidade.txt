@@ -1,0 +1,17 @@
+Durante a instalação do BeautifulSoup eu tive alguns problemas de compatibilidade com a versão
+do Python. Não testei com o Jupyter Notebook então não sei se tem os mesmos problemas.
+
+Para esses códigos eu usei o interpretador na versão 3.9 e não tive problemas.
+
+Bibliotecas necessárias:
+
+Pandas:
+    pip install pandas
+BeautifulSoup:
+    pip install beautifulsoup4
+Selenium:
+    pip install selenium
+Requests:
+    pip install requests
+OpenPyXL:
+    pip install openpyxl
