@@ -2,6 +2,7 @@ import pandas as pd
 #Este código tranforma tabelas HTML em tabelas xlsx, utiliziei duas tabelas diferentes de dois sites, porem pode-se adaptar para outros tipos de tabela também.
 
 #o pandas funciona de forma parecida com o Beautifulsoup porem tem algumas funções mais específicas para transformação e visualizaçaõ de dados, ele é muito util principalmente quando utilizado em conjunto com outros frameworks como o selenium e o prorpio Beautifulsoup.
+
 cotacaomateriais = "https://www.depositomarmeleiro.com.br/tabelas-preco/"
 
 html = pd.read_html(cotacaomateriais)
